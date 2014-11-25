@@ -94,3 +94,4 @@ class Origami implements State {
     return new Origami(newWidth, newHeight, ++_direction % 4);
   }
 }
+
