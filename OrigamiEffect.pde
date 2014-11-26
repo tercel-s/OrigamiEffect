@@ -21,7 +21,7 @@ void draw() {
   origami = origami.update();
 }
 
-class Origami implements State {
+class Origami {
   private float _width;
   private float _height;
   
@@ -80,7 +80,7 @@ class Origami implements State {
       
       // 紙はbox()関数で。
       // これを使うとlights()が有効になる。
-      box(_width * 2, 0.01, _height * 2);
+      box(_width * 2, 0.2, _height * 2);
       popMatrix();
     }
     popMatrix();
