@@ -12,7 +12,6 @@ void setup() {
 
 void draw() {
   background(30);
-  lights();
   
   float angle = 0.3 * radians(frameCount);
   camera(500, 500, 500,
